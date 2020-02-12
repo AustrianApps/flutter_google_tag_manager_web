@@ -1,0 +1,30 @@
+name: flutter_google_tag_manager_web
+description: Simple tag manager plugin for flutter web projects.
+version: 0.0.1
+homepage: https://github.com/AustrianApps/flutter_google_tag_manager_web
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  js: ^0.6.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: FlutterGoogleTagManagerWebPlugin
+        fileName: flutter_google_tag_manager_web.dart
+
