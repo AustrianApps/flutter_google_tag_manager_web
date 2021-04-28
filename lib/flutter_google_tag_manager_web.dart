@@ -17,7 +17,7 @@ void _dataLayerPush(Map<String, dynamic> data) {
 }
 
 class FlutterGoogleTagManagerWebPlugin extends FlutterGoogleTagManager {
-  void pushEvent(String eventName, {Map<String, dynamic> args}) {
+  void pushEvent(String eventName, {Map<String, dynamic>? args}) {
     _dataLayerPush({'event': eventName, ...?args});
   }
 

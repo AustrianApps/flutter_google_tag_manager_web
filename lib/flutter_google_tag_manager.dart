@@ -16,10 +16,10 @@ abstract class FlutterGoogleTagManager extends PlatformInterface {
     _instance = instance;
   }
 
-  void pushEvent(String eventName, {Map<String, dynamic> args});
+  void pushEvent(String eventName, {Map<String, dynamic>? args});
 }
 
 class FlutterGoogleTagManagerNoop extends FlutterGoogleTagManager {
   @override
-  void pushEvent(String eventName, {Map<String, dynamic> args}) {}
+  void pushEvent(String eventName, {Map<String, dynamic>? args}) {}
 }

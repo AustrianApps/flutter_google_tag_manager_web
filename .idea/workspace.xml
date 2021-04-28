@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e4f47c1-3c30-42f0-98ed-99f972c0f2b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_google_tag_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_google_tag_manager.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_google_tag_manager_web.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_google_tag_manager_web.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
