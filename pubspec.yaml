@@ -4,19 +4,20 @@ version: 0.0.1
 homepage: https://github.com/AustrianApps/flutter_google_tag_manager_web
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.2.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  js: ^0.6.3
+  js: ">=0.6.3 <1.0.0"
   plugin_platform_interface: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
